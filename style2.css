@@ -1,0 +1,74 @@
+* {
+  box-sizing: content-box;
+  margin: 0;
+}
+
+/* Sfondo */
+body {
+  background-image: url(background.jpg);
+  background-size: 1600px 1000px;
+  background-repeat: no-repeat;
+  font-family: 'Poppins', Arial, sans-serif;
+}
+
+.container {
+  width: 1000px;
+  height: 680px;
+  margin: 20px 300px;
+  background-color: rgba(0, 0, 0, .4);
+  border-radius: 20px;
+}
+
+.logo {
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 7%;
+}
+
+.textlogo {
+  color: rgb(50,205,50);
+  text-align:center;
+}
+
+nav {
+  text-align: center;
+  background-color: rgb(50,205,50);
+  display: block;
+  margin: 0 100px;
+  padding: 10px;
+}
+
+main {
+  display: block;
+  margin: 20px 100px;
+  color: white;
+}
+
+main h2 {
+  display: inline-block;
+}
+
+.progress-bar1 {
+    background-color: #ffb347;
+    border-radius: 2px;
+    height: 20px;
+    width: 350px;
+    margin-bottom: 10px;
+  }
+
+.progress-bar2 {
+      background-color: #32cd32;
+      border-radius: 2px;
+      height: 20px;
+      width: 500px;
+      margin-bottom: 10px;
+    }
+
+.progress-bar3 {
+          background-color: #ff5349;
+          border-radius: 2px;
+          height: 20px;
+          width: 150px;
+          margin-bottom: 10px;
+        }
